@@ -19,7 +19,6 @@ static const char *colors[SchemeLast][2] = {
   [SchemeNormHighlight] = { "#ffffff", "#282c34" },
   [SchemeOut]           = { "#282c34", "#b16286" },
   [SchemeOutHighlight]  = { "#ffc978", "#00ffff" },
-  [SchemeHp]            = { "#000000", "#b16286" },
 };
 
 /* * gruvbox * */
