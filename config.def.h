@@ -13,9 +13,12 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 /* * onedark * */
 static const char *colors[SchemeLast][2] = {
   /* scheme, fg, bg */
-  [SchemeNorm] = { "#abb2bf", "#282c34" },
-  [SchemeSel]  = { "#282c34", "#e06c75" },
-  [SchemeOut]  = { "#282c34", "#b16286" },
+  [SchemeNorm]          = { "#abb2bf", "#282c34" },
+  [SchemeSel]           = { "#282c34", "#e06c75" },
+  [SchemeSelHighlight]  = { "#000000", "#e06c75" },
+  [SchemeNormHighlight] = { "#ffffff", "#282c34" },
+  [SchemeOut]           = { "#282c34", "#b16286" },
+  [SchemeOutHighlight]  = { "#ffc978", "#00ffff" },
 };
 
 /* * gruvbox * */
